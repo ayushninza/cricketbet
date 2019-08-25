@@ -18,20 +18,20 @@ Y = data['Match_Won']
 X = preprocessing.scale(X)
 
 X_train, X_test, y_train, y_test =train_test_split(X, Y, test_size = 0.25)
-print("Team_Id,Team_Name,Team_Short_Code
-1,WEST INDIES,WI
-2,SOUTH AFRICA,SA
-3,ENGLAND,ENG
-4,AUSTRALIA,AUS
-5,PAKISTAN,PAK
-6,AFGANISTAN,AFG
-7,INDIA,IND
-8,NEPAL,NEP
-9,BANGALADESH,BAN
-10,SRI LANKA,SL
-11,IRELAND,IRE
-12,UNITED ARAB EMIRATES,UAE
-13,NEW ZEALAND,NZ")
+print("Team_Id,Team_Name,Team_Short_Code")
+print("1,WEST INDIES,WI")
+print("2,SOUTH AFRICA,SA")
+print("3,ENGLAND,ENG")
+print("4,AUSTRALIA,AUS")
+print("5,PAKISTAN,PAK")
+print("6,AFGANISTAN,AFG")
+print("7,INDIA,IND")
+print("8,NEPAL,NEP")
+print("9,BANGALADESH,BAN")
+print("10,SRI LANKA,SL")
+print("11,IRELAND,IRE")
+print("12,UNITED ARAB EMIRATES,UAE")
+print("13,NEW ZEALAND,NZ")
 
 
 def predict():
